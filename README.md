@@ -1,6 +1,6 @@
 # mudworld
 
-![A screenshot of some lua code in a terminal window to showcase the theme](static/colors.png)
+![A screenshot of some lua code in a terminal window to showcase the theme](https://i.postimg.cc/TwCssH4C/Captura-de-tela-2025-07-27-114501.png)
 
 Vim theme. Warm colors. Black and brown all the way down. Inspired by gruvbox and Jonathan Blow and Casey Muratori's Emacs themes.
 
