@@ -31,14 +31,14 @@ ghl('CursorLineNr', { fg = colors.fg, bold = true })
 ghl('Comment',      { fg = colors.grey_light_blue, italic = true })
 ghl({'String', 'Number' },       { fg = colors.orange })
 ghl('Keyword',      { fg = colors.yellow })
-ghl("@variable",    { fg = colors.white })
 ghl('Function',     { fg = colors.white, bold = true })
-ghl('Type',     { fg = colors.blue, bold = true })
 ghl({
 	'Boolean',
 }, { fg = colors.muted_purple, bold = true })
 ghl({
 	-- Block the default theme's foreground colors
+	'@variable',
+	'Type',
 	'ModeMsg',
 	'Operator',
 	'Delimiter',
