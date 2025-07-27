@@ -5,8 +5,6 @@
 This is a Neovim theme with a focus on warm colors. Inspired by gruvbox and the Emacs themes of Jonathan Blow and Casey Muratori.
 
 ## Installation
-The theme is pretty barebones for now, so I don't have any options, you take what you get. This means you don't need to call `require('mudworld').setup()`
-
 ### [mini.dep](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-dep.md)
 
 ```lua
