@@ -9,6 +9,7 @@ local colors = {
 	yellow = '#f1c84b',
 	darker_yellow = '#c78b3d',
 	muted_purple ='#9b6f8d',
+	green = '#6c9a5b'
 }
 
 local ghl = function(groupnames, opts)
@@ -28,17 +29,17 @@ ghl('LineNr', { fg = colors.bg_faded })
 ghl('CursorLineNr', { fg = colors.fg, bold = true })
 
 -- syntax
-ghl('Comment',      { fg = colors.grey_light_blue, italic = true })
+ghl('Comment',      { fg = colors.green, italic = true })
 ghl({'String', 'Number' },       { fg = colors.orange })
 ghl('Keyword',      { fg = colors.yellow })
 ghl('Function',     { fg = colors.white, bold = true })
 ghl({
 	'Boolean',
 }, { fg = colors.muted_purple, bold = true })
+ghl('Type', {fg = colors.blue, bold = true })
 ghl({
 	-- Block the default theme's foreground colors
 	'@variable',
-	'Type',
 	'ModeMsg',
 	'Operator',
 	'Delimiter',
