@@ -4,7 +4,11 @@ local colors = {
 	bg_faded = '#7d6d59',
 	white = '#ffffff',
 	orange = '#cf7044',
-	idk = '#5b909a'
+	blue = '#5b909a',
+	grey_light_blue = '#bac4cf',
+	yellow = '#f1c84b',
+	darker_yellow = '#c78b3d',
+	muted_purple ='#9b6f8d',
 }
 
 local ghl = function(groupnames, opts)
@@ -24,18 +28,22 @@ ghl('LineNr', { fg = colors.bg_faded })
 ghl('CursorLineNr', { fg = colors.fg, bold = true })
 
 -- syntax
-ghl('Comment',      { fg = colors.fg, italic = true })
-ghl('Constant',     { fg = colors.orange })
-ghl('Keyword',      { fg = colors.fg, bold = true })
+ghl('Comment',      { fg = colors.grey_light_blue, italic = true })
+ghl({'String', 'Number' },       { fg = colors.orange })
+ghl('Keyword',      { fg = colors.yellow })
+ghl("@variable",    { fg = colors.white })
 ghl('Function',     { fg = colors.white, bold = true })
-ghl('Type',         { fg = colors.fg })
-ghl('Boolean',      { fg = colors.fg, bold = true })
-ghl('Number',       { fg = colors.fg })
-ghl('Operator',     { fg = colors.fg })
-ghl('Delimiter',    { fg = colors.fg })
-ghl('Special',      { fg = colors.fg })
-ghl('Punct',       { fg = colors.fg })
-ghl("@variable", { fg = colors.white })
--- ghl("@variable.builtin", { fg = '#ffffff', italic = true })
-ghl("@parameter", { fg = colors.fg })
-ghl("@property", { fg = colors.fg })
+ghl('Type',     { fg = colors.blue, bold = true })
+ghl({
+	'Boolean',
+}, { fg = colors.muted_purple, bold = true })
+ghl({
+	-- Block the default theme's foreground colors
+	'ModeMsg',
+	'Operator',
+	'Delimiter',
+	'Special',
+	'Punct',
+	'@parameter',
+	'@property', 	
+}, { fg = colors.fg })
