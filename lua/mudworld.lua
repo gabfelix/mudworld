@@ -39,7 +39,9 @@ Mudworld.load = function()
     yellow = '#f1c84b',
     darker_yellow = '#c78b3d',
     muted_purple = '#9b6f8d',
-    green = '#6c9a5b'
+    green = '#6c9a5b',
+    pure_blue = '#0000ff',
+    pure_cyan = '#00ffff',
   }
 
 	local config = Mudworld.config
@@ -78,6 +80,7 @@ Mudworld.load = function()
     '@parameter',
     '@property',
   }, { fg = colors.fg })
+  ghl('Visual', { fg = colors.pure_cyan, bg = colors.pure_blue })
 end
 
 return Mudworld
