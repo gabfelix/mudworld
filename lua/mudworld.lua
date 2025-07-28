@@ -66,7 +66,7 @@ Mudworld.load = function()
   -- Syntax
   ghl('Comment', { fg = colors.green, italic = config.italics })
   ghl({ 'String', 'Number' }, { fg = colors.orange })
-  ghl('Keyword', { fg = colors.yellow })
+  ghl({ 'Keyword', 'Statement' }, { fg = colors.yellow })
   ghl('Function', { fg = colors.white, bold = config.bold })
   ghl('Boolean', { fg = colors.muted_purple, bold = config.bold })
   ghl('Type', { fg = colors.blue, bold = config.bold })
