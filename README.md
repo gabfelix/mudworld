@@ -17,3 +17,16 @@ now(function()
   vim.cmd.colorscheme 'mudworld'
 end)
 ```
+
+### vim.pack
+```lua
+vim.pack.add({
+	github 'gabfelix/mudworld.git',
+})
+
+require('mudworld').setup({
+	italics = true,
+	bold = true
+})
+vim.cmd.colorscheme 'mudworld'
+```
