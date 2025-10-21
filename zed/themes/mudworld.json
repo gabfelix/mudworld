@@ -16,7 +16,7 @@
           }
         ],
         "search.match_background": "#db8798",
-        "background": "#000000",
+        "editor.background": "#000000",
         "editor.foreground": "#cdaa7d",
         "syntax": {
           "function": {
@@ -29,15 +29,14 @@
             "color": "#6c9a5b",
             "font_style": "italic"
           },
+          "constant": {
+            "color": "#9b6f8d"
+          },
           "string": {
             "color": "#cf7044"
           },
           "boolean": {
             "color": "#9b6f8d"
-          },
-          "selector": {
-            "color": "#0000ff",
-            "background_color": "#ff00ff"
           },
           "type": {
             "color": "#5b909a"
