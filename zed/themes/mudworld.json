@@ -1,0 +1,52 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Mudworld",
+  "author": "Gabriel Felix",
+  "themes": [
+    {
+      "name": "Mudworld",
+      "appearance": "dark",
+      "style": {
+        "players": [
+          // local user
+          {
+            "cursor": "#cdaa7d",
+            "background": "#000000",
+            "selection": "#0000ff"
+          }
+        ],
+        "search.match_background": "#db8798",
+        "background": "#000000",
+        "editor.foreground": "#cdaa7d",
+        "syntax": {
+          "function": {
+            "color": "#ffffff"
+          },
+          "number": {
+            "color": "#cf7044"
+          },
+          "comment": {
+            "color": "#6c9a5b",
+            "font_style": "italic"
+          },
+          "string": {
+            "color": "#cf7044"
+          },
+          "boolean": {
+            "color": "#9b6f8d"
+          },
+          "selector": {
+            "color": "#0000ff",
+            "background_color": "#ff00ff"
+          },
+          "type": {
+            "color": "#5b909a"
+          },
+          "keyword": {
+            "color": "#f1c84b"
+          }
+        }
+      }
+    }
+  ]
+}
