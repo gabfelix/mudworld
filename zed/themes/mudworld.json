@@ -20,7 +20,7 @@
         "editor.foreground": "#cdaa7d",
         "syntax": {
           "function": {
-            "color": "#ffffff"
+            "color": "#cc817c"
           },
           "number": {
             "color": "#cf7044"
@@ -30,7 +30,7 @@
             "font_style": "italic"
           },
           "constant": {
-            "color": "#9b6f8d"
+            "color": "#5b909a"
           },
           "string": {
             "color": "#cf7044"
@@ -39,7 +39,7 @@
             "color": "#9b6f8d"
           },
           "type": {
-            "color": "#5b909a"
+            "color": "#7ccca9"
           },
           "keyword": {
             "color": "#f1c84b"
